@@ -5,4 +5,11 @@ const student ={
     bloodGroup:"o+ve"
 
 }
-console.log(student.firstName);
+
+
+const {firstName,bloodGroup,salary}=student;
+
+console.log(firstName);
+console.log(bloodGroup);
+console.log(salary);
+
